@@ -18,7 +18,7 @@ const AddDocument = props => {
       props.addDocument(document)
       setDocument(initialFormState)
     }}>
-      <input type="text" name="docTitle" placeholder="Enter Title" value={document.docTitle} onChange={handleInputChange} 
+      <input type="text" name="docTitle" placeholder="Enter Title" value={document.docTitle} onChange={handleInputChange} />
       <input type="text" name="description" placeholder="Enter Description" value={document.description} onChange={handleInputChange} />
       <input type="text" name="publisher" placeholder="Enter Publisher" value={document.name} onChange={handleInputChange}/>
       <button className="btn btn-primary">Add Document</button>
