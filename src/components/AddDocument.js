@@ -16,7 +16,7 @@ const AddDocument = props => {
       if (!document.docTitle || !document.description || !document.publisher) return
 
       props.addDocument(document)
-      setDocument(initialFormState)
+      setDocument(initialFormState
     }}>
       <input type="text" name="docTitle" placeholder="Enter Title" value={document.docTitle} onChange={handleInputChange} />
       <input type="text" name="description" placeholder="Enter Description" value={document.description} onChange={handleInputChange} />
